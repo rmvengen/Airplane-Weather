@@ -19,16 +19,16 @@
 
 ## Info for angular
 * weatherCtrl.$inject = ['$scope', 'SelectedData', 'DarkskyWeather'];
-            * selected data stays the same for ours --> found them in app_client/common/services
-            *  must have services in app
-            *  NEED SELECTEDDATA STUFF IF GOING TO CLICK AND SELECT!!!!
-            *  the first is what the method is known as externally and the second is internally when it says
-                        * .service('DarkskyWeather', 'darkskyWeather'); <-- in the darkskyWeather.service.json
-            *  selectedData.factory.js --> can change selectedDepartureICAO to what I need such as selectedTribe or selectedContestant
-            *  The order of things in the index.html MATTERS!!!! 
-                        *inject means use these things in this order
-            * what you call controller as 'vm' must put var vm = this; in the weather.controller.js
-            * KEEP THE SELECTED DATA STUFF
+  * selected data stays the same for ours --> found them in app_client/common/services
+  *  must have services in app
+  *  NEED SELECTEDDATA STUFF IF GOING TO CLICK AND SELECT!!!!
+  *  the first is what the method is known as externally and the second is internally when it says
+    * .service('DarkskyWeather', 'darkskyWeather'); <-- in the darkskyWeather.service.json
+  *  selectedData.factory.js --> can change selectedDepartureICAO to what I need such as selectedTribe or selectedContestant
+  *  The order of things in the index.html MATTERS!!!! 
+  *inject means use these things in this order
+  * what you call controller as 'vm' must put var vm = this; in the weather.controller.js
+  * KEEP THE SELECTED DATA STUFF
             
 ## If weather is finished by Monday we don't have to do attendance ... take out departure and arrival NO EXTRAAA STUFF
     * make sure final project doesn't look anything like airplane app thingy ma bobber deal hicky!
